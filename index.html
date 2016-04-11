@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>My Anzan</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <div id="back">
+            Go back to menu
+        </div>
+        
+		<div id="container">
+		    <div id="main">
+		    	<h1>Menu</h1>
+		    	<form method="post" id="form">
+		    		<label for="digits">Number of digits</label>
+		    		<input type="number" name="digits" id="digits" value="1">
+		    		<label for="time">Showing time in seconds</label>
+		    		<input type="number" name="time" id="time" value="0.75" step="0.05">
+		    		<label for="hiding">Hiding time in seconds</label>
+		    		<input type="number" name="hiding" id="hiding" value="0.3" step="0.05">
+		    		<label for="quantity">How many ?</label>
+		    		<input type="number" name="quantity" id="quantity" value="2">
+		    		<input type="submit" value="Click here to begin">
+		    	</form>
+		    </div>
+		    <div id="numbers"></div>
+		    <div id="answer">
+                <h1>Answer</h1>
+                <div id="result"></div>
+                <p id="seeAnswerText">Click anywhere to see the answer.</p>
+                <p id="nextSerieText">Click anywhere to make a new serie.</p>
+            </div>
+		</div>
+		
+		<script src="script.js"></script>
+	</body>
+</html>

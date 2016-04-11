@@ -1,0 +1,106 @@
+/*************************************************
+    $ General
+*************************************************/
+
+html {
+    height : 100%;
+}
+
+body {
+    background-color: #5aa0f5;
+    color: white;
+    font-family: Arial;
+    margin : 0;
+    padding : 0;
+    height : 100%;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+/*************************************************
+    $ Back bar
+*************************************************/
+
+#back {
+    font-weight: bold;
+    background-color: black;
+    padding : 5px 5px 5px 20px;
+    margin : 0;
+    position : fixed;
+    top : 0;
+    left : 0;
+    right : 0;
+}
+
+/*************************************************
+    $ container
+*************************************************/
+
+#container {
+    text-align: center;
+    padding-top : 1px;
+}
+
+/*************************************************
+    $ Main
+*************************************************/
+
+#main {
+    width : 830px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main label {
+    display: inline-block;
+    width : 400px;
+    text-align: right;
+    font-size: 2em;
+    margin-right: 20px;
+}
+
+#main input {
+    display: inline-block;
+    width : 50px;
+    margin-right: 350px;
+}
+
+#main input[type="submit"] {
+    width: auto;
+    margin: 2em 0 0;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    color: #ff0;
+    font-weight: bold;
+}
+
+/*************************************************
+    $ Numbers
+*************************************************/
+
+#numbers {
+    font-size: 20em;
+}
+
+/*************************************************
+    $ Answer
+*************************************************/
+
+#result {
+    font-size : 20em;
+}
+
+#answer p {
+    position: absolute;
+    bottom : 0;
+    left : 0;
+    right : 0;
+    margin : 0;
+}
